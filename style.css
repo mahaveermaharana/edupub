@@ -1,0 +1,537 @@
+/**
+    user page css content
+*/
+
+body {
+    background-color: #333;
+    font-family: Arial;
+    color: #e0288d;
+    margin: 5;
+}
+
+.body-content {
+    padding: 10% 10%;
+    display: inline-block;
+}
+
+.clear{
+    clear: both;
+}
+
+/****************** Header CSS  - START ******************/
+
+.logo {
+    width: 30%;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #db0925;
+    box-shadow: 4px 3px 5px #595959;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+#text {
+    font-size: 25px;
+    font-weight: initial;
+    /* text-shadow: 4px 3px 5px #919191; */
+    top: 5px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    position: relative;
+    z-index: 999;
+    background-color: #db097d;
+    padding: 1% 2% 2% 2%;
+    color: #fff;
+    box-shadow: 0px 6px 6px #6b6b6b;
+}
+
+.logo>label {
+    position: relative;
+    font-size: 20px;
+}
+
+.logged-user {
+    float: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.user-name{
+    float: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline;
+}
+.passward{
+    float: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline;
+}
+.Login{
+    float: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline-block;
+    
+}
+/*********************BODY CSS -FORNT******************/
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/****************************secnd page***************/
+.topnav {
+    margin: 0;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: middle;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  
+  
+ 
+
+
+/****************** Header CSS  - END ******************/
+
+
+.user-container {
+    display: inline;
+    float: center;
+    width: 80%;
+    
+    position: relative;
+}
+
+.user-container h1 {
+    color: #c49c9c;
+    font-size: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #e70ea6;
+}
+
+.user-container .user-block {
+    
+}
+
+.user-container .user-block:hover {
+    background: #fff;
+    transition-duration: .5s;
+    box-shadow: 4px 6px 2px #ccc;
+}
+
+.user-container .user-block:hover {
+    background: #fff;
+    transition-duration: .5s;
+    box-shadow: 4px 6px 2px #ccc;
+}
+
+.user-container .user-block .user-details {
+    padding: 3%;
+}
+
+.user-container .user-block .user-details .name {
+    color: #4c4c4c;
+    font-size: 12px;
+    text-decoration: underline;
+    width: 30%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.user-container .user-block .user-details .value {
+    width: 80%;
+    color: #d33a2c;
+    font- size: 12px;
+}
+
+.user-container .user-block p {
+    color: #4c4c4c;
+    font-size: 12px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.add-user-block {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 4px 6px 2px #ccc;
+}
+
+.add-user-block .user-input {
+    padding: 5px 0px 5px 10px;
+}
+
+.add-user-block .user-input label {
+    display: block;
+    color: #4c4c4c;
+    padding-bottom: 5px;
+}
+
+.add-user-block .user-input input[type='text'] {
+    width: 50%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.add-user-block .user-input textarea {
+    width: 50%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.button-set {
+    padding: 5px 0px 5px 10px;
+}
+
+.button-set .btn-primary {
+    color: #ffffff;
+    background: #b52c1f;
+    border: 1px solid #b52c1f;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.button-set .btn-secondry {
+    color: #b52c1f;
+    background: #fff;
+    border: 1px solid #b52c1f;
+    padding: 5px 10px;
+}
+object:focus {
+    outline: none;
+}
+
+/****************** Footer CSS  - START ******************/
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
+}
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+/* The search form */
+
+.footer-distributed form {
+    position: relative;
+}
+
+.footer-distributed form input {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 500px;
+    padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus {
+    outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+    opacity: 1;
+    color: #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder {
+    color: #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    color: #d1d2d2;
+    font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+    .footer-distributed form input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-distributed {
+        padding: 30px;
+        text-align: center;
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left {
+        margin-bottom: 20px;
+    }
+    .footer-distributed form input {
+        width: 100%;
+    }
+}
+
+/****************** Footer CSS  - END ******************/
+
+.user-card {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 250px;
+    height: 190px;
+    position: relative;
+    cursor: pointer;
+    /* clear: both; */
+    margin: 4px;
+    float: left;
+}
+
+.card {
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    clear: both;
+}
+
+.card .front ,.card .back  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #c9c9c9;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+.card .back {
+    background: #d33a2c;
+    color: #FFF;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.card .back .back-content {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.user-card:hover .card {
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px rgba(50, 50, 50, .2);
+}
+
+input {position: relative;height: 30px;left: 0;padding: 0;margin: 0;}
+
+:checked+.card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+.user-card:hover :checked+.card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    box-shadow: 0 20px 20px rgba(255, 255, 255, .2);
+}
+
+.select-user::after{
+    content: 'Click here to Select User';
+    background: #d33a2c;
+    width: 239px;
+    display: block;
+    position: relative;
+    left: 0;
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+    height: 20px;
+    color: #fff;
+}
+
+.select-user:checked::after{
+    content: '✔ User Selected';
+    background: #c9c9c9;
+    color: #d33a2c;
+}
